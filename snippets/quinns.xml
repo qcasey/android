@@ -1,0 +1,9 @@
+<manifest>
+    <!-- Add MicroG from this repo https://github.com/lineageos4microg/android_vendor_partner_gms --> 
+    <project path="vendor/partner_gms" name="lineageos4microg/android_vendor_partner_gms" remote="github" revision="master" />
+
+    <!-- Add WireGuard kernel patch -->
+    <remote name="zx2c4" fetch="https://git.zx2c4.com/" />
+    <project remote="zx2c4" name="android_kernel_wireguard" path="kernel/wireguard" revision="master" sync-s="true" />
+</manifest>
+  
