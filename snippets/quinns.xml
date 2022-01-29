@@ -17,9 +17,9 @@
     <project path="packages/apps/Lawnchair" name="LawnchairLauncher/Lawnchair" remote="github" revision="v12.0-alpha.4" />
 
     <!-- Remove unused stock apps -->
-    <remove-project name="packages/apps/Contacts" />
-    <remove-project name="packages/apps/Messaging" />
-    <remove-project name="packages/apps/AudioFX" />
-    <remove-project name="packages/apps/Etar" />
+    <remove-project name="platform/packages/apps/Contacts" />
+    <remove-project name="platform/packages/apps/Messaging" />
+    <remove-project name="platform/packages/apps/AudioFX" />
+    <remove-project name="platform/packages/apps/Etar" />
 </manifest>
   
