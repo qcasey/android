@@ -1,0 +1,20 @@
+
+<manifest>
+    <!-- Add MicroG from this repo https://github.com/lineageos4microg/android_vendor_partner_gms --> 
+    <project path="vendor/partner_gms" name="qcasey/android_vendor_partner_gms" remote="github" revision="master" />
+
+    <!-- Add OnePlus binaries -->
+    <project name="TheMuppets/proprietary_vendor_oneplus" path="vendor/oneplus" remote="github" revision="lineage-19.1" />
+
+    <!-- Add OnePlus breakfast -->
+    <project path="device/oneplus/guacamole" remote="github" name="LineageOS/android_device_oneplus_guacamole" />
+    <project path="device/oneplus/sm8150-common" remote="github" name="LineageOS/android_device_oneplus_sm8150-common" />
+    <project path="hardware/oneplus" remote="github" name="LineageOS/android_hardware_oneplus" />
+
+    <!-- Add OnePlus custom kernel -->
+    <project path="kernel/oneplus/sm8150" remote="github" name="qcasey/android_kernel_oneplus_sm8150" />
+
+    <!-- Add Custom Prebuilt Apps -->
+    <remote name="gitlab-qcasey" fetch="https://git.quinncasey.com" />
+    <project path="prebuilts/my-custom-apps" name="qcasey/prebuilts_custom_apps" remote="gitlab-qcasey" revision="main" />
+</manifest>
