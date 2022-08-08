@@ -15,6 +15,6 @@
     <project path="kernel/oneplus/sm8150" remote="github" name="qcasey/android_kernel_oneplus_sm8150" />
 
     <!-- Add Custom Prebuilt Apps -->
-    <!-- <remote name="gitlab-qcasey" fetch="https://git.quinncasey.com" /> -->
-    <!-- <project path="prebuilts/my-custom-apps" name="qcasey/prebuilts_custom_apps" remote="gitlab-qcasey" revision="main" /> -->
+    <remote name="gitlab-qcasey" fetch="https://git.quinncasey.com" />
+    <project path="prebuilts/my-custom-apps" name="qcasey/prebuilts_custom_apps" remote="gitlab-qcasey" revision="main" />
 </manifest>
